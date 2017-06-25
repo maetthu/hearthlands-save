@@ -8,7 +8,7 @@ import (
 )
 
 func usage() {
-	fmt.Printf("Usage: %s [OPTIONS] argument ...\n", os.Args[0])
+	fmt.Printf("Usage: %s [OPTIONS] savegame.hls\n", os.Args[0])
 	flag.PrintDefaults()
 }
 
